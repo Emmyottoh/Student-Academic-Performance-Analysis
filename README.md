@@ -1,33 +1,29 @@
-# Student Academic Performance & Engagement Analysis
+# Student Academic Engagement & Performance Analytics Suite
 
-## Executive Overview 
-This portfolio project provides an end-to-end evaluation of student academic performance, homework compliance, and communication touchpoints across primary grade levels using a cleansed dataset of **12,156 student records** spanning 6 core subjects and 5 grade levels.
+## Project Overview
+Educational institutions and academic leadership require data-driven visibility into student engagement, attendance patterns, and performance metrics to identify learning bottlenecks and enable early intervention for at-risk students. This project delivers a dual-page executive analytics dashboard processing 12,000+ student records to track academic outcomes, platform engagement, and submission timeliness[cite: 2].
+
+<img width="1186" height="503" alt="Overview_Student_Academic_Performance_Dahboard" src="https://github.com/user-attachments/assets/87302573-3519-4232-90d1-a4b87cba26ac" />
+
+## Technical Stack & Tools
+* **Business Intelligence & Visualization:** Power BI Desktop, Dynamic Matrix Layouts, Interactive Slicers[cite: 2]
+* **Spreadsheets & Databases:** Microsoft Excel (Pivot Framework), SQL, Data Quality Auditing[cite: 2]
+* **Data Engineering & ETL:** Power Query, Data Cleaning, Normalization, Python EDA[cite: 1, 2]
+* **Core Competencies:** Analytical Skills, Statistics, Data Modeling, Behavioral Analytics, Stakeholder Communication[cite: 2]
+
+## Key Features & Business Impact
+* **Large-Scale Data Engineering:** Standardized and transformed 12,000+ academic, demographic, and platform engagement records using **SQL** and **Power Query**, eliminating structural anomalies and normalizing key performance metrics[cite: 2].
+* **Dual-Page BI Architecture:** Engineered an executive overview for macro-level attendance and score tracking, paired with a granular student deep-dive page[cite: 2].
+* **Behavioral Segmentation & Modeling:** Built relational **Data Modeling** frameworks linking platform login frequency, study hours, and assignment timeliness to overall grade outcomes[cite: 2].
+* **Statistical Risk Identification:** Applied **Statistics** and **Analytical Skills** to establish early-warning thresholds for flagging struggling students based on attendance and assignment completion rates[cite: 2].
+
+## Data Pipeline & Methodology
+1. **ETL & Data Normalization:** Processed raw tabular datasets using **Microsoft Excel** and **Power Query** to resolve structural column shifts and missing values[cite: 2].
+2. **Data Modeling & DAX:** Constructed star-schema relationships and custom DAX measures in **Power BI** to calculate rolling averages and participation scores[cite: 2].
+3. **Executive Communication:** Formatted clear visual indicator cards and matrix views to support **Communication** with academic advisors and institution leaders[cite: 2].
+
+<img width="1186" height="503" alt="Overview_Student_Academic_Performance_Dahboard" src="https://github.com/user-attachments/assets/1d390fee-f8ec-4b14-81bf-20f397aa18a1" />
+
 
 ---
-
-## Data Engineering & Integrity Log
-* **Anomaly Detection:** Identified structural column shifts and schema mismatches during dataset synthesis at row 12,158.
-* **Resolution Strategy:** Isolated and standardized the **12,156-row dataset** to ensure 100% data integrity and prevent metric distortion across executive KPI dashboards and downstream DAX calculations.
-
----
-
-## Key Performance Indicators & Insights
-* **Core Metrics Equilibrium:** Overall exam scores average **74.2**, homework completion stands at **74.3%**, and present attendance status is recorded at **24.8%** (34.6% including excused instances).
-* **Subject Performance Range:** English leads overall performance with an average exam score of **74.8** and homework rate of **74.7%**, while Arabic records the lowest average exam score at **73.4**.
-* **Attendance Patterns:** Combined non-present attendance categories (Late: 25.4%, Absent: 25.3%, Excused/Left Early: 24.6%) account for over 75% of student status logs.
-* **Balanced Touchpoints:** Communication touchpoints are evenly split across **Teacher to Parent (4,119)**, **Parent to Teacher (4,021)**, and **Automated Reminders (4,016)**.
-
----
-
-## Tech Stack & Deliverables
-* **Microsoft Excel:** Raw data auditing, row-level schema cleaning, and pivot table verification models.
-* **Power BI:** Data modeling, dynamic DAX measures, global slicer synchronization, and a two-page interactive dashboard suite:
-
-
-### **Page 1:Executive Summary 
-<img width="1188" height="504" alt="Student_Academic_Performance_Dashboard" src="https://github.com/user-attachments/assets/a985108d-48f6-4169-85cf-d8d20de33f8f" />
-
-
-### **Page 2:Grade Level & Communication Analysis 
-
-
+*Developed by Emmanuel Ottoh | Data Analyst & BI Developer*[cite: 1, 2]
