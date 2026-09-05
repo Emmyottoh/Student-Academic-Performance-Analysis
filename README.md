@@ -29,5 +29,5 @@ This portfolio project provides an end-to-end evaluation of student academic per
 
 
 ### **Page 2:Grade Level & Communication Analysis 
-<img width="1186" height="503" alt="Overview_Student_Academic_Performance_Dahboard" src="https://github.com/user-attachments/assets/87302573-3519-4232-90d1-a4b87cba26ac" />
+
 
